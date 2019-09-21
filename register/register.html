@@ -21,7 +21,7 @@
             <p> 注册成功即可获得<span class="fc4">100</span>积分+<span class="fc4">会员特权</span>！</p>
         </div>
         <div class="content">
-            <form action="#">
+            <form>
                 <div class="content_l">
                     <dl class="item">
                         <dt>
@@ -40,7 +40,7 @@
                                 设置密码
                             </dt>
                             <dd>
-                                <input class="bk_default" type="text" placeholder="6-20个大小写英文字母，符号或数字">
+                                <input class="bk_default" type="password" placeholder="6-20个大小写英文字母，符号或数字" >
                                 <label for="" class="beizhu">安全程度：<em class="cd-01" id="aqStyle"></em></label>
                                 <div class="ts-error"></div>
                                 <div></div>
@@ -52,7 +52,7 @@
                                 确认密码
                             </dt>
                             <dd>
-                                <input class="bk_default"  type="text" placeholder="再次输入密码">
+                                <input class="bk_default"  type="password" placeholder="再次输入密码">
                                 <div class="ts-error"></div>
                                 <div></div>
                             </dd>
@@ -64,9 +64,9 @@
                             </dt>
                             <dd>
                                 <input class="bk_default bk80 " type="text" >
-                                <canvas width="80" height="34" id="captcha"></canvas>
-                                <button>确认验证码</button>
-                                <div></div>
+                                <canvas  width="80" height="34" id="captcha"></canvas>
+                                <button id="imgBtn" class="btn1">确认验证码</button>
+                                <div class="ts-error" id="checkCode"></div>
                             </dd>
                     </dl>
                     <div class="ljzc yhxy">
