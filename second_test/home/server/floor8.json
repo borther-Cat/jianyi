@@ -1,0 +1,183 @@
+[
+    {
+        "floor": "8F", 
+        "cite": "隐形眼镜", 
+        "title": [
+            "热门推荐", 
+            "隐形眼镜", 
+            "彩色隐形眼镜", 
+            "护理周边"
+        ], 
+        "list": [
+            {
+                "list_title": "佩戴周期", 
+                "lis": [
+                    "日抛", 
+                    "2周抛", 
+                    "月抛", 
+                    "半年抛"
+                ]
+            }, 
+            {
+                "list_title": "隐形眼镜", 
+                "lis": [
+                    "强生", 
+                    "博士伦", 
+                    "海昌", 
+                    "视康"
+                ]
+            }, 
+            {
+                "list_title": "彩色隐形眼镜", 
+                "lis": [
+                    "neo", 
+                    "博士伦", 
+                    "海昌", 
+                    "实瞳"
+                ]
+            }, 
+            {
+                "list_title": "护理周边", 
+                "lis": [
+                    "博士伦", 
+                    "卫康", 
+                    "海昌", 
+                    "沙福隆"
+                ]
+            }
+        ], 
+        "more": "隐形眼镜>>", 
+        "center": [
+            {
+                "top_list": [
+                    "http://img02.j1.com/images/images1308/xb/20150928/20171108-r-t-2-1.jpg", 
+                    "http://img03.j1.com/images/images1308/xb/20150528/70033801-2.jpg", 
+                    "http://img04.j1.com/images/images1308/xb/20150928/70011701.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "http://img01.j1.com/images/images1308/xb/20150528/70040203.jpg", 
+                        "bot_price": "¥259.00", 
+                        "bot_del": "强生 舒日30片装隐形眼镜"
+                    }, 
+                    {
+                        "bot_src": "http://img02.j1.com/images/images1308/xb/20150528/70630801.jpg", 
+                        "bot_price": "¥199.00", 
+                        "bot_del": "实瞳可芙蕾日抛公主丽棕30片装 3色"
+                    }, 
+                    {
+                        "bot_src": "http://img03.j1.com/images/images1308/xb/20150528/70030301.jpg", 
+                        "bot_price": "¥229.00", 
+                        "bot_del": "博士伦清朗水润高清日抛30片装 隐形眼镜"
+                    }, 
+                    {
+                        "bot_src": "http://img04.j1.com/images/images1308/xb/20150528/700313-1.jpg", 
+                        "bot_price": "¥129.00", 
+                        "bot_del": "博士伦多功能润明清透355+355+120护理液"
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "http://img04.j1.com/images/images1308/xb/20160304/2.jpg", 
+                    "http://img04.j1.com/images/images1308/xb/20160420/1.jpg", 
+                    "http://img04.j1.com/images/images1308/xb/20160304/4.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "http://img01.j1.com/images/images1308/xb/20150528/70030221.jpg", 
+                        "bot_price": "¥149.00", 
+                        "bot_del": " 博士伦 清朗舒适月抛6片装 隐形眼镜 "
+                    }, 
+                    {
+                        "bot_src": "http://img02.j1.com/images/images1308/xb/20150528/70270401.jpg", 
+                        "bot_price": "¥119.00", 
+                        "bot_del": " 博士伦 原装进口清朗半年抛2片装 隐形眼镜 "
+                    }, 
+                    {
+                        "bot_src": "http://img03.j1.com/images/images1308/xb/20150528/70023201.jpg", 
+                        "bot_price": "¥229.00", 
+                        "bot_del": " 海昌 EASYDAYFB日抛60片装 隐形眼镜 "
+                    }, 
+                    {
+                        "bot_src": "http://img04.j1.com/images/images1308/xb/20150528/70036701.jpg", 
+                        "bot_price": "¥159.00", 
+                        "bot_del": " 博士伦 纯视2代硅水凝胶月抛隐形眼镜 隐形眼镜 "
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "http://img04.j1.com/images/images1308/xb/20150928/70630701.jpg", 
+                    "http://img04.j1.com/images/images1308/xb/20160304/6.jpg", 
+                    "http://img04.j1.com/images/images1308/xb/20150928/70017701.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "http://img01.j1.com/images/images1308/xb/20150528/70034401.jpg", 
+                        "bot_price": "¥229.00", 
+                        "bot_del": " 博士伦 蕾丝明眸 日抛30片装 隐形眼镜 "
+                    }, 
+                    {
+                        "bot_src": "http://img02.j1.com/images/images1308/xb/20150528/70023001.jpg", 
+                        "bot_price": "¥169.00", 
+                        "bot_del": " 海昌 海昌星眸彩色隐形眼镜日抛20片送10片 隐形眼镜 "
+                    }, 
+                    {
+                        "bot_src": "http://img03.j1.com/images/images1308/xb/20150528/70033801.jpg", 
+                        "bot_price": "¥89.00", 
+                        "bot_del": " 博士伦 蕾丝炫眸日抛彩色隐形眼镜10片装 隐形眼镜 "
+                    }, 
+                    {
+                        "bot_src": "http://img04.j1.com/images/images1308/xb/20150528/70031411.jpg", 
+                        "bot_price": "¥59.00", 
+                        "bot_del": " 博士伦 美瞳年抛水灵焕彩彩色隐形眼镜 隐形眼镜 "
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "http://img03.j1.com/images/images1308/xb/20150528/709996-3.jpg", 
+                    "http://img01.j1.com/images/images1308/xb/20151117/wk.jpg", 
+                    "http://img04.j1.com/images/images1308/xb/20150528/700313-2.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "http://img01.j1.com/images/images1308/xb/20150528/700308.jpg", 
+                        "bot_price": "¥79.00", 
+                        "bot_del": "博士伦润明500ml+120ml 护理液 "
+                    }, 
+                    {
+                        "bot_src": "http://img03.j1.com/images/images1308/xb/20150528/709996-1.jpg", 
+                        "bot_price": "¥149.00", 
+                        "bot_del": " 博士伦 博乐纯 隐形眼镜 护理液 300*2+120ml 隐形眼镜 "
+                    }, 
+                    {
+                        "bot_src": "http://img03.j1.com/images/images1308/xb/20150528/700198.jpg", 
+                        "bot_price": "¥59.00", 
+                        "bot_del": " 海昌 水感觉120ml*4套装 护理液 "
+                    }, 
+                    {
+                        "bot_src": "http://img04.j1.com/images/images1308/xb/20150528/701103.jpg", 
+                        "bot_price": "¥19.90", 
+                        "bot_del": "卫康新视多功能护理液 500ml "
+                    }
+                ]
+            }
+        ], 
+        "pic": [
+            "http://img01.j1.com/images/images1308/logo/yjlogo_07.jpg", 
+            "http://img02.j1.com/images/images1308/logo/yjlogo_09.jpg", 
+            "http://img03.j1.com/images/images1308/logo/yjlogo_17.jpg", 
+            "http://img04.j1.com/images/images1308/logo/yjlogo_19.jpg", 
+            "http://img04.j1.com/images/images1308/logo/sauflon.jpg", 
+            "http://img02.j1.com/images/images1308/logo/yjlogo_29.jpg", 
+            "http://img02.j1.com/images/images1308/logo/dirun.jpg", 
+            "http://img01.j1.com/images/images1308/logo/yjlogo_27.jpg", 
+            "http://img01.j1.com/images/images1308/logo/neovisio.jpg", 
+            "http://img02.j1.com/images/images1308/logo/liancai.jpg", 
+            "http://img03.j1.com/images/images1308/logo/mino.jpg", 
+            "http://img04.j1.com/images/images1308/logo/yjlogo_59.jpg"
+        ]
+    }
+]

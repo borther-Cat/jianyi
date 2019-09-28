@@ -1,0 +1,183 @@
+[
+    {
+        "floor": "5F", 
+        "cite": "美妆护理", 
+        "title": [
+            "国际大牌", 
+            "应季推荐", 
+            "美容护肤", 
+            "彩妆香水"
+        ], 
+        "list": [
+            {
+                "list_title": "面部护肤", 
+                "lis": [
+                    "洁面", 
+                    "化妆水", 
+                    "面霜乳液", 
+                    "精华"
+                ]
+            }, 
+            {
+                "list_title": "缤纷彩妆", 
+                "lis": [
+                    "睫毛膏", 
+                    "唇膏/口红", 
+                    "眼影", 
+                    "彩妆工具"
+                ]
+            }, 
+            {
+                "list_title": "底妆", 
+                "lis": [
+                    "粉底液", 
+                    "BB霜", 
+                    "粉饼", 
+                    "遮瑕"
+                ]
+            }, 
+            {
+                "list_title": "身体护理", 
+                "lis": [
+                    "手足养护", 
+                    "身体嫩肤", 
+                    "沐浴", 
+                    "精油"
+                ]
+            }
+        ], 
+        "more": "美妆护理>>", 
+        "center": [
+            {
+                "top_list": [
+                    "https://img01.j1.com/upload/detail/image/20161116/20180502_hlzm.jpg", 
+                    "https://img02.j1.com/upload/detail/image/20161116/cpb.jpg", 
+                    "https://img03.j1.com/upload/detail/image/20161116/20180502_syld.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img01.j1.com/upload/detail/image/20161116/44550.jpg", 
+                        "bot_price": "¥269.00", 
+                        "bot_del": " La Roche-posay理肤泉 青春痘调理精华乳(防痘印配方） 40ml "
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/upload/detail/image/20161116/44926.jpg", 
+                        "bot_price": "¥298.00", 
+                        "bot_del": " Shiseido资生堂 安热沙水能户外防晒乳 60ml"
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20161116/45832.jpg", 
+                        "bot_price": "¥366.00", 
+                        "bot_del": " 欧莱雅 青春密码酵素精华肌底液50ml "
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20161116/42164.jpg", 
+                        "bot_price": "¥1230.00", 
+                        "bot_del": " SK-II 微肌因赋活修护精华露 50ml "
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "https://img01.j1.com/upload/detail/image/20161116/osd.jpg", 
+                    "https://img03.j1.com/upload/detail/image/20161116/20180502_mm.jpg", 
+                    "https://img02.j1.com/upload/detail/image/20161116/yly.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img01.j1.com/upload/detail/image/20161116/06-03962.jpg", 
+                        "bot_price": "¥59.90", 
+                        "bot_del": "玥之秘 水晶防晒喷雾 SPF50+ PA+++ 180ml"
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/upload/detail/image/20161116/06-04948.jpg", 
+                        "bot_price": "¥68.00", 
+                        "bot_del": "奢华璞俐莎 弹肤果冻面膜（双效胶原蛋白） 33g*3片"
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20161116/43511.jpg", 
+                        "bot_price": "¥155.00", 
+                        "bot_del": "Olay 玉兰油 多效修护防晒霜"
+                    }, 
+                    {
+                        "bot_src": "https://img04.j1.com/upload/detail/image/20161116/44556.jpg", 
+                        "bot_price": "¥168.00", 
+                        "bot_del": "AVENE雅漾 舒护调理喷雾/舒护活泉水喷雾 300ml"
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "https://img03.j1.com/upload/detail/image/20161116/20180502_zst.jpg", 
+                    "https://img03.j1.com/upload/detail/image/20161116/20180502_oly.jpg", 
+                    "https://img03.j1.com/upload/detail/image/20161116/bql.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img01.j1.com/upload/detail/image/20161116/46941.jpg", 
+                        "bot_price": "¥45.00", 
+                        "bot_del": "Kiss Me奇士美 护手霜（75g) "
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20161116/43303.jpg", 
+                        "bot_price": "¥282.00", 
+                        "bot_del": " 欧舒丹（LOCCITANE） 甜蜜樱花润肤露 250ml "
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20161116/43736.jpg", 
+                        "bot_price": "¥339.00", 
+                        "bot_del": "薇姿 温泉矿物系列水活精华液 30ml "
+                    }, 
+                    {
+                        "bot_src": "https://img04.j1.com/upload/detail/image/20161116/43044.jpg", 
+                        "bot_price": "¥560.00", 
+                        "bot_del": " 雅诗兰黛 弹力多肽眼霜 15ml "
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "https://img01.j1.com/upload/detail/image/20161116/rbdtj.jpg", 
+                    "https://img02.j1.com/upload/detail/image/20160927/9.jpg", 
+                    "https://img04.j1.com/upload/detail/image/20161116/mbl.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img01.j1.com/upload/detail/image/20161116/06-05172.jpg", 
+                        "bot_price": "¥149.00", 
+                        "bot_del": " VENUS MARBLE 九色眼影盘 拜金主义 "
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/upload/detail/image/20161116/45808.jpg", 
+                        "bot_price": "¥259.00", 
+                        "bot_del": " LANEIGE兰芝 雪纱丝柔修颜隔离霜40号 "
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20161116/41997.jpg", 
+                        "bot_price": "¥520.00", 
+                        "bot_del": " Whoo后 拱辰享美黄金气垫粉底液 #23 SPF50+/PA+++"
+                    }, 
+                    {
+                        "bot_src": "https://img04.j1.com/upload/detail/image/20161116/41930.jpg", 
+                        "bot_price": "¥1200.00", 
+                        "bot_del": " Jo Malone祖玛珑 香水（蓝风铃香型）100ml "
+                    }
+                ]
+            }
+        ], 
+        "pic": [
+            "https://img03.j1.com/images/images1308/logo/ysld2017.jpg", 
+            "https://img02.j1.com/images/images1308/logo/ysld2017_5.jpg", 
+            "https://img03.j1.com/images/images1308/logo/hou.jpg", 
+            "https://img03.j1.com/images/images1308/logo/bql.jpg", 
+            "https://img04.j1.com/images/images1308/logo/mj.jpg", 
+            "https://img01.j1.com/images/images1308/logo/olay.jpg", 
+            "https://img02.j1.com/images/images1308/logo/kissme.jpg", 
+            "https://img04.j1.com/images/images1308/logo/ysld2017_8.jpg", 
+            "https://img02.j1.com/images/images1308/logo/SK-II2015.jpg", 
+            "https://img01.j1.com/images/images1308/logo/ysld2017_10.jpg", 
+            "https://img03.j1.com/images/images1308/logo/ysld2017_4.jpg", 
+            "https://img04.j1.com/images/images1308/logo/ysld2017_11.jpg"
+        ]
+    }
+]

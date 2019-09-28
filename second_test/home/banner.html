@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="../swiper-4.5.1/swiper.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <script src="../swiper-4.5.1/swiper.js"></script>
+    <script src="./js/jquery-3.4.1.js"></script>
+</head>
+<body>
+    <div id="floorDiv3" class="clearfix" style="background: #fff;">
+        <div class="j1banner clearfix">
+            <div class="lay965 fl">
+                <div class="slide-ba">
+                    <div class="slide-top">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="https://img.j1.com/upload/pic/shopGoods/1568857126696.jpg">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="https://img.j1.com/upload/pic/shopGoods/1569383225720.jpg">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="https://img.j1.com/upload/pic/shopGoods/1568084672924.jpg">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="https://img.j1.com/upload/pic/shopGoods/1561010152184.jpg">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="https://img.j1.com/upload/pic/shopGoods/1560909490260.jpg">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="https://img.j1.com/upload/pic/shopGoods/1568943409046.jpg">
+                                    </a>
+                                </div>
+                            
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="litter_pic">
+
+                    </div>
+                </div>
+                <div class="xlqg">
+
+                </div>
+            </div>  
+            <div class="lay225 fr">
+
+            </div>
+        </div>
+    </div>
+    <script>
+            var swiper = new Swiper('.swiper-container', {
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                    renderBullet: function (index, className) {
+                    return '<span class="' + className + '">' + (index + 1) + '</span>';
+                }},
+                autoplay:true   
+            });
+            for(i=0;i<swiper.pagination.bullets.length;i++){
+                swiper.pagination.bullets[i].onmouseover=function(){
+                    this.click();
+                };
+            } 
+    </script>
+    <script>
+    $(".litter_pic").append().load("http://127.0.0.1/code/second_test/home/litter_pic.html")
+    $(".xlqg").append().load("http://127.0.0.1/code/second_test/home/hot.html")
+    $(".lay225").append().load("http://127.0.0.1/code/second_test/home/banner_r.html")
+    </script>
+            
+  
+</body>
+</html>

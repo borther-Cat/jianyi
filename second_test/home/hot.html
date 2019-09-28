@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/hot.css">
+    <script src="./js/jquery-3.4.1.js"></script>
+</head>
+<body>
+    <div class="xlqg_box">
+        <div class="clearfix">
+            <h3>热门推荐</h3>
+            <div class="xl-tit">
+                <ul>
+                <li class="act">促销活动 </li>
+                <li class="">热销排行</li>
+                <li class="">猜您喜欢 </li>
+                </ul>
+            </div>
+        </div>
+        <div class="xl-main">
+            
+        </div>
+    </div>
+    <script>
+        $(function() {
+            $("li").mouseenter(function() {
+                $(this).addClass("act").siblings().removeClass("act");
+                var index = $(this).index();
+                // $(".content > div").eq(index).addClass("current").siblings().removeClass("current");
+            })
+        })
+        $.ajax({
+                type: "get",
+                url: "http://127.0.0.1/code/second_test/home/server/get_hot.php",
+                dataType: "json"
+            }).then(function({data}){
+               
+                
+                var html1_t="";
+                var html1 = "";
+                var html2_t="";
+                var html2 = "";
+                var html3_t="";
+                var html3 = "";
+                data.map(function(ele,index){
+                    if(index<4){                       
+                       for(key in ele){
+                        html1_t = `<li>
+                                    <div class="li_box">
+                                        <a class="pro_img" href="#"style="margin-left: 0px;">
+                                        <img alt="森米 胶原蛋白发酵果蔬汁饮料750ml" src=${ele.src}> 
+                                        </a>
+                                            <a class="pro_ms" href="#">${ele.del}</a>
+                                        <p>
+                                            <strong>${ele.price}</strong></p>
+                                    </div>
+                                </li>`
+                       }
+                       html1 +=html1_t;
+                         
+                    }else if(index<8){
+                        for(key in ele){
+                        html2_t = `<li>
+                                    <div class="li_box">
+                                        <a class="pro_img" href="#"style="margin-left: 0px;">
+                                        <img alt="森米 胶原蛋白发酵果蔬汁饮料750ml" src=${ele.src}> 
+                                        </a>
+                                            <a class="pro_ms" href="#">${ele.del}</a>
+                                        <p>
+                                            <span>￥</span>
+                                            <strong>${ele.price}</strong></p>
+                                    </div>
+                                </li>`
+                       }
+                       html2 +=html2_t;
+                    }else{
+                        for(key in ele){
+                        html3_t = `<li>
+                                    <div class="li_box">
+                                        <a class="pro_img" href="#"style="margin-left: 0px;">
+                                        <img alt="森米 胶原蛋白发酵果蔬汁饮料750ml" src=${ele.src}> 
+                                        </a>
+                                            <a class="pro_ms" href="#">${ele.del}</a>
+                                        <p>
+                                            <span>￥</span>
+                                            <strong>${ele.price}</strong></p>
+                                    </div>
+                                </li>`
+                       }
+                       html3 +=html3_t
+                    }
+                    
+                   
+                })
+                var html11 = `<div class="xl-products clearfix" style="display: block;">
+                                <ul>
+                                    ${html1}
+                                </ul>
+                            </div>`
+                var html21 = `<div class="xl-products clearfix" style="display: none;">
+                                <ul>
+                                    ${html2}
+                                </ul>
+                            </div>`
+                var html31 = `<div class="xl-products clearfix" style="display: none;">
+                                <ul>
+                                    ${html3}
+                                </ul>
+                            </div>`
+                var html = html11+html21+html31;
+               $(".xl-main").append(html);
+                
+            })
+            $("li").mouseenter(function() {
+                $(".xl-products").css("display","none")
+                $(".xl-products").eq(S=$(this).index()).css("display","block")
+            })
+            
+        
+        
+    </script>
+</body>
+</html>

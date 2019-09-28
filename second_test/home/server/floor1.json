@@ -1,0 +1,214 @@
+[
+    {
+        "floor": "1F", 
+        "cite": "药品专区", 
+        "h2_r": "健一网，中国知名网上药店，正品保障", 
+        "title": [
+            "热销品种", 
+            "家庭常备", 
+            "女性专场", 
+            "男性专场", 
+            "妈宝专场"
+        ], 
+        "list": [
+            {
+                "list_title": "热销品种", 
+                "lis": [
+                    "999感冒灵颗粒", 
+                    "慢严舒柠", 
+                    "阿胶专场", 
+                    "金刺参合剂"
+                ]
+            }, 
+            {
+                "list_title": "家庭常备", 
+                "lis": [
+                    "奇正消痛贴膏", 
+                    "鼻窦炎口服液", 
+                    "艾洛松", 
+                    "小柴胡颗粒"
+                ]
+            }, 
+            {
+                "list_title": "女性专场", 
+                "lis": [
+                    "消糜栓", 
+                    "紧急避孕药", 
+                    "妇科千金片", 
+                    "痛经宝颗粒"
+                ]
+            }, 
+            {
+                "list_title": "男性专场", 
+                "lis": [
+                    "六味地黄丸", 
+                    "左归丸", 
+                    "米诺地尔酊", 
+                    "斑秃丸"
+                ]
+            }
+        ], 
+        "more": "药品专区>>", 
+        "center": [
+            {
+                "top_list": [
+                    "http://img01.j1.com/upload/detail/image/20160503/ej.jpg", 
+                    "https://img03.j1.com/upload/detail/image/20160503/hs_2019.jpg", 
+                    "https://img03.j1.com/upload/detail/image/20160503/trt.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img02.j1.com/upload/detail/image/20160503/14896.jpg", 
+                        "bot_price": "￥142", 
+                        "bot_del": "善存 多维元素片(29) 100片"
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20160503/01-00008.jpg", 
+                        "bot_price": "￥50", 
+                        "bot_del": " 钙尔奇D 碳酸钙D3片 36片 "
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/upload/detail/image/20160503/12782.jpg", 
+                        "bot_price": "￥69.8", 
+                        "bot_del": " 力度伸 维生素C泡腾片 30片 橙味 "
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20160503/39625.jpg", 
+                        "bot_price": "￥168", 
+                        "bot_del": " 九芝堂 驴胶补血颗粒 20克*30袋 "
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "https://img04.j1.com/upload/detail/image/20160503/yunnanbaiyao.jpg", 
+                    "https://img04.j1.com/upload/detail/image/20160503/jdnca.jpg", 
+                    "https://img03.j1.com/upload/detail/image/20160503/sj.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img04.j1.com/upload/detail/image/20160503/02-00013.jpg", 
+                        "bot_price": "￥25", 
+                        "bot_del": " 康恩贝 肠炎宁片 36片装"
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20160503/15370.jpg", 
+                        "bot_price": "￥38", 
+                        "bot_del": " 哈药 三精 葡萄糖酸钙口服溶液 12支 "
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20160503/01-00919.jpg", 
+                        "bot_price": "￥138", 
+                        "bot_del": "优思明 屈螺酮炔雌醇片 21片"
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20160503/32239.jpg", 
+                        "bot_price": "￥15", 
+                        "bot_del": " 999 感冒灵颗粒 9袋"
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "https://img02.j1.com/upload/detail/image/20160503/yuejing.jpg", 
+                    "https://img02.j1.com/upload/detail/image/20160503/wuyanz.jpg", 
+                    "https://img02.j1.com/upload//detail/image/20160503/by.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img02.j1.com/upload/detail/image/20160503/32305.jpg", 
+                        "bot_price": "￥128", 
+                        "bot_del": "雷氏 十全大补膏 400克"
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20160503/15043.jpg", 
+                        "bot_price": "￥198", 
+                        "bot_del": "艾丽 奥利司他胶囊 21粒"
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20160503/30167.jpg", 
+                        "bot_price": "￥1398", 
+                        "bot_del": "福牌 阿胶 铁盒 500克"
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20160503/54852.jpg", 
+                        "bot_price": "￥138", 
+                        "bot_del": "盘龙云海 排毒养颜胶囊 70粒"
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "https://img03.j1.com/upload/detail/image/20160503/sbp.jpg", 
+                    "https://img03.j1.com/upload/detail/image/20160503/mlde.jpg", 
+                    "https://img02.j1.com/upload/detail/image/20160503/hongmaoyaojiu.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20160503/A91000234.jpg", 
+                        "bot_price": "￥105.00", 
+                        "bot_del": " 【同仁堂】 六味地黄丸（120丸） 5瓶装"
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20160503/54650.jpg", 
+                        "bot_price": "￥28.00", 
+                        "bot_del": "同仁堂 五子衍宗丸 60g"
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20160503/54703.jpg", 
+                        "bot_price": "￥105.0", 
+                        "bot_del": " 京果 海狗丸 120粒"
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/upload/detail/image/20160503/54333.jpg", 
+                        "bot_price": "￥35.00", 
+                        "bot_del": " 太极 补肾益脑胶囊 72片"
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "https://img03.j1.com/upload/detail/image/20160503/qiaodi.jpg", 
+                    "https://img02.j1.com/upload/detail/image/20160503/gm.jpg", 
+                    "https://img02.j1.com/upload/detail/image/20160503/ys.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20160503/31207.jpg", 
+                        "bot_price": "￥55.00", 
+                        "bot_del": "妈咪爱 枯草杆菌二联活菌颗粒 30袋"
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20160503/02-00804.jpg", 
+                        "bot_price": "￥25", 
+                        "bot_del": "三九 小儿止咳糖浆 225ml"
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20160503/54627.jpg", 
+                        "bot_price": "￥35.30", 
+                        "bot_del": " 正露 康腹止泻片 24片"
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/upload/detail/image/20160503/11214.jpg", 
+                        "bot_price": "￥22.50", 
+                        "bot_del": "美林 布洛芬混悬液 100ml"
+                    }
+                ]
+            }
+        ], 
+        "pic": [
+            "https://img01.j1.com/images/images1308/logo/yplogo_07.jpg", 
+            "https://img02.j1.com/images/images1308/logo/yplogo_09.jpg", 
+            "https://img03.j1.com/images/images1308/logo/yplogo_17.jpg", 
+            "https://img04.j1.com/images/images1308/logo/yplogo_19.jpg", 
+            "https://img01.j1.com/images/images1308/logo/yplogo_27.jpg", 
+            "https://img02.j1.com/images/images1308/logo/wutaijituan2.jpg", 
+            "https://img03.j1.com/images/images1308/logo/yplogo_37.jpg", 
+            "https://img04.j1.com/images/images1308/logo/yplogo_39.jpg", 
+            "https://img01.j1.com/images/images1308/logo/yplogo_47.jpg", 
+            "https://img02.j1.com/images/images1308/logo/yplogo_49.jpg", 
+            "https://img03.j1.com/images/images1308/logo/yplogo_57.jpg", 
+            "https://img04.j1.com/images/images1308/logo/yplogo_59.jpg"
+        ]
+    }
+]

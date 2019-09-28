@@ -1,0 +1,241 @@
+[
+    {
+        "floor": "3F", 
+        "cite": "养生保健", 
+        "title": [
+            "热销商品", 
+            "女士美容", 
+            "男士保健", 
+            "心脑健康", 
+            "高档滋补", 
+            "中药养生"
+        ], 
+        "list": [
+            {
+                "list_title": "魅力女人", 
+                "lis": [
+                    "葡萄籽", 
+                    "减肥", 
+                    "胶原蛋白", 
+                    "维生素C/E"
+                ]
+            }, 
+            {
+                "list_title": "强健男人", 
+                "lis": [
+                    "补肾壮阳", 
+                    "抗疲劳", 
+                    "解酒护肝"
+                ]
+            }, 
+            {
+                "list_title": "关爱父母", 
+                "lis": [
+                    "蜂胶", 
+                    "善存银片", 
+                    "褪黑素"
+                ]
+            }, 
+            {
+                "list_title": "活力儿童", 
+                "lis": [
+                    "益生菌", 
+                    "钙片", 
+                    "鱼肝油", 
+                    "儿童多维片"
+                ]
+            }
+        ], 
+        "more": "养生保健>>", 
+        "center": [
+            {
+                "top_list": [
+                    "https://img03.j1.com/images/images1308/pic/20161208/sm.jpg", 
+                    "https://img01.j1.com/images/images1308/pic/20161208/xzl.jpg", 
+                    "https://img03.j1.com/images/images1308/pic/20161208/hs.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img.j1.com/images/images1308/pic/20161208/03-00020.jpg", 
+                        "bot_price": "¥398.00", 
+                        "bot_del": " 汤臣倍健 蛋白质粉450g "
+                    }, 
+                    {
+                        "bot_src": "https://img.j1.com/images/images1308/pic/20161208/03-00639.jpg", 
+                        "bot_price": "¥388.00", 
+                        "bot_del": " 健力多 氨糖软骨素钙片180片 "
+                    }, 
+                    {
+                        "bot_src": "https://img.j1.com/images/images1308/pic/20161208/17842.jpg", 
+                        "bot_price": "¥148.00", 
+                        "bot_del": "汤臣倍健 牛初乳加钙咀嚼片60片"
+                    }, 
+                    {
+                        "bot_src": "https://img.j1.com/images/images1308/pic/20161208/A3300371.jpg", 
+                        "bot_price": "¥179.00", 
+                        "bot_del": "汤臣倍健 褪黑素片 60片*2瓶"
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "https://img01.j1.com/upload/detail/image/20161208/ISDG.jpg", 
+                    "https://img02.j1.com/images/images1308/ylqx/zztt.jpg", 
+                    "https://img02.j1.com/images/images1308/ylqx/zzf.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img02.j1.com/images/images1308/pic/20161208/03-00072.jpg", 
+                        "bot_price": "¥178.00", 
+                        "bot_del": "汤臣倍健 葡萄籽维生素C加E片 "
+                    }, 
+                    {
+                        "bot_src": "https://img.j1.com/images/images1308/pic/20161208/19078.jpg", 
+                        "bot_price": "¥158.00", 
+                        "bot_del": " Lumi 综合果味饮料 50ml*6瓶"
+                    }, 
+                    {
+                        "bot_src": "https://img.j1.com/images/images1308/pic/20161208/03-00680.jpg", 
+                        "bot_price": "¥99.00", 
+                        "bot_del": "修正 左旋肉碱茶多酚片 "
+                    }, 
+                    {
+                        "bot_src": "https://img.j1.com/images/images1308/pic/20161208/03-00809.jpg", 
+                        "bot_price": "¥188.00", 
+                        "bot_del": "东韵牌 黑芝麻核桃阿胶糕 300g "
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "https://img02.j1.com/images/images1308/ylqx/jrkj.jpg", 
+                    "https://img02.j1.com/images/images1308/ylqx/hgrsw.jpg", 
+                    "https://img03.j1.com/images/images1308/ylqx/alcjysj.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img.j1.com/images/images1308/pic/20161208/A3300321.jpg", 
+                        "bot_price": "¥516.00", 
+                        "bot_del": "拉摩力拉 玛卡片 60片*2瓶"
+                    }, 
+                    {
+                        "bot_src": "https://img.j1.com/images/images1308/pic/20161208/03-01061.jpg", 
+                        "bot_price": "¥158.00", 
+                        "bot_del": "善存 多种维生素矿物质片80片（男士装）"
+                    }, 
+                    {
+                        "bot_src": "https://img.j1.com/images/images1308/pic/20161208/18875.jpg", 
+                        "bot_price": "¥359.00", 
+                        "bot_del": "康比特 左旋肉碱共轭亚油酸昆布绿茶胶囊"
+                    }, 
+                    {
+                        "bot_src": "https://img.j1.com/images/images1308/pic/20161208/21008.jpg", 
+                        "bot_price": "¥59.00", 
+                        "bot_del": "海王牌金樽片 "
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "https://img02.j1.com/images/images1308/ylqx/yldbjn.jpg", 
+                    "https://img01.j1.com/images/images1308/ylqx/fj.jpg", 
+                    "https://img03.j1.com/images/images1308/ylqx/hA.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img.j1.com/images/images1308/pic/20161208/03-00932.jpg", 
+                        "bot_price": "¥199.00", 
+                        "bot_del": "Swisse 西王 玉米胚芽油 600ml*4礼盒装 "
+                    }, 
+                    {
+                        "bot_src": "https://img.j1.com/images/images1308/pic/20161208/17797.jpg", 
+                        "bot_price": "¥188.00", 
+                        "bot_del": "汤臣倍健 鱼油软胶囊 100粒"
+                    }, 
+                    {
+                        "bot_src": "https://img.j1.com/images/images1308/pic/20161208/03-00070.jpg", 
+                        "bot_price": "¥398.00", 
+                        "bot_del": "汤臣倍健 辅酶Q10天然维生素E软胶囊 "
+                    }, 
+                    {
+                        "bot_src": "https://img.j1.com/images/images1308/pic/20161208/18998.jpg", 
+                        "bot_price": "¥199.00", 
+                        "bot_del": "康恩贝 钙D软胶囊 200粒"
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "https://img02.j1.com/upload/detail/image/20160513/zgz.jpg", 
+                    "https://img01.j1.com/images/images1308/ylqx/nbj.jpg", 
+                    "https://img02.j1.com/images/images1308/ylqx/keb.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20160818/18003.jpg", 
+                        "bot_price": "¥149.00", 
+                        "bot_del": "万基洋参胶囊"
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/upload/detail/image/20160818/03-00794.jpg", 
+                        "bot_price": "¥348.00", 
+                        "bot_del": "鹰牌 无糖花旗参茶"
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/upload/detail/image/20160818/03-00452.jpg", 
+                        "bot_price": "¥159.00", 
+                        "bot_del": "江中 猴姑酥性饼干 960g"
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/upload/detail/image/20160818/03-00182.jpg", 
+                        "bot_price": "¥188.00", 
+                        "bot_del": "养生堂 天然维生素礼盒套装"
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "https://img02.j1.com/upload/detail/image/20160513/hs.jpg", 
+                    "https://img01.j1.com/upload/detail/image/20160513/yo.jpg", 
+                    "https://img02.j1.com/upload/detail/image/20160513/sx.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img03.j1.com/upload/detail/image/20160818/03-00870.jpg", 
+                        "bot_price": "¥28.90", 
+                        "bot_del": "雷允上 养悦心 金银花 30克"
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/upload/detail/image/20160818/03-01024.jpg", 
+                        "bot_price": "¥158.00", 
+                        "bot_del": "弘恩堂 阿胶糕 500g 袋装"
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/upload/detail/image/20160818/23819.jpg", 
+                        "bot_price": "¥298.00", 
+                        "bot_del": "同仁堂 西洋参 一级圆切片60g"
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/upload/detail/image/20160818/03-01118.jpg", 
+                        "bot_price": "¥299.00", 
+                        "bot_del": "正官庄 恩珍源红参石榴汁饮品 10g*30包"
+                    }
+                ]
+            }
+        ], 
+        "pic": [
+            "https://img01.j1.com/images/images1308/logo/bjlogo_07.jpg", 
+            "https://img02.j1.com/images/images1308/logo/bjlogo_37.jpg", 
+            "https://img03.j1.com/images/images1308/logo/bjlogo_17.jpg", 
+            "https://img04.j1.com/images/images1308/logo/bjlogo_47.jpg", 
+            "https://img04.j1.com/images/images1308/logo/lumi.jpg", 
+            "https://img04.j1.com/images/images1308/logo/taitai.jpg", 
+            "https://img04.j1.com/images/images1308/logo/nms.jpg", 
+            "https://img03.j1.com/images/images1308/logo/xzl.jpg", 
+            "https://img04.j1.com/images/images1308/logo/dp.jpg", 
+            "https://img04.j1.com/images/images1308/logo/jdyl.jpg", 
+            "https://img03.j1.com/images/images1308/logo/bjlogo_06.jpg", 
+            "https://img03.j1.com/images/images1308/logo/kbt.jpg"
+        ]
+    }
+]

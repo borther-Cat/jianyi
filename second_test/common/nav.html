@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../common/base.css">
+    <link rel="stylesheet" href="../common/nav.css">
+    <script src="../common/jquery-3.4.1.js"></script>
+</head>
+<body>
+        <div class="j11308_nav_frame">
+            <div class="j11308_nav j11308_width1">
+                <div class="j11308_nav_left" style="height: 40px; overflow: hidden;">
+                    <a id="allNav" href="https://www.j1.com/sitemap.html" target="_blank">全部商品分类</a>
+                    <div class="j11308_nav_left"></div>
+                </div>
+                <div class="j11308_nav_menu">
+                    <ul class="j11308_nav_menu1">
+                        <li><a target="_blank" href="https://www.j1.com/" title="健一网网上药店">首页</a> </li>
+                            <li><a target="_blank" href="https://www.j1.com/pd-yaopin.html" title="专科药品">专科药品</a> <img src="https://img.j1.com/images/images1308/ico/hot.gif" class="new-ico">
+                                    </li>
+                            <li><a target="_blank" href="https://www.j1.com/activity/czrm.html" title="超值热卖">超值热卖</a> <img src="https://img.j1.com/images/images1308/ico/new.gif" class="new-ico">
+                                    </li>
+                            <li><a target="_blank" href="https://www.j1.com/activity/js.html">基因检测</a> <img src="https://img.j1.com/images/images1308/ico/new.gif" class="new-ico">
+                                    </li>
+                            </ul>
+                </div>
+                <div class="j11308_nav_right">
+                    <a href="https://www.j1.com/news-help-40.html" target="_blank" rel="nofollow">互联网药品交易资格证 沪C20150002</a>
+                </div>
+            </div>
+        </div>
+        <div id="cataLogMapDiv" style="position: relative; margin: 0 auto; z-index: 100; background-color: #fff; width: 1200px;">
+            <div style="position:absolute;z-index:1000;left:0px;" id="sidebar-x-1">
+            
+            </div>
+        </div>
+
+        
+    <script>
+        
+        let nav_data;
+         $.ajax({
+                type: "get",
+                url: "http://127.0.0.1/code/second_test/common/server_Nav.php",
+                dataType: "json"
+            }).then(function ({data}) {
+
+                var nav_lis = "";
+                for(var i=0;i<data.length;i++){ 
+                    var tmp1=data[i].title.map((ele,index)=>{
+                        var title_a =` <a href="#" target="_blank" >${ele}</a>`
+                        if(index<data[i].title.length-1){
+                            title_a = title_a + "/";
+                        }
+                        return title_a;
+                    }).join("");
+                    var html1 = `<div class="sidelist-x-li">
+                                    <h3 class="slid-height">
+                                        <div class="nav_zk"> 
+                                        ${tmp1}
+                                        </div>
+                                        <s></s> 
+                                    </h3>
+                                </div>`
+                    
+                   var tmp2=data[i].cate.map(function(ele,index){
+                        var list_title_tmp ="";
+                        var lis_ul = "";
+                        for(key in ele){
+                            list_title_tmp =`<span>
+                                                <a href="#" target="_blank">${ele.list_title}</a>
+                                            </span>`
+                            
+                            var lis_tmp = ele.lis.map((li)=>{
+                                return `<li> <a href="#" target="_blank">${li}</a> </li>`
+                                                
+                            }).join("");
+                             lis_ul = `<ul>${lis_tmp}</ul>`
+                        }
+                        var tmp2_b= list_title_tmp + lis_ul;
+                        return `<div class="i-list-con-x clearfix">${tmp2_b}</div>`
+
+                    }).join("")  
+                    var html2 =`<div class="i-list-x-l">${tmp2}</div>`;
+                    var tmp3= data[i].hot.map((ele,index)=>{
+                        var dd_a=ele.map((val)=>{
+                            return `<a href="#" target="_blank">${val}</a>`
+                        }).join("")
+                        return `<dd class="clearfix">${dd_a}</dd>`;
+                        
+                    }).join("");
+
+
+                    var html3 = `<div class="i-list-right-x" style="float:left">
+                                    <dl>   
+                                        <cite>热门推荐</cite>
+                                        ${tmp3}
+                                    </dl>
+                                </div>`
+                     var html23_t = html2 + html3;           
+                    var html23 = `<div style="display:none;" class="i-list-x clearfix">
+                                        ${html23_t}
+                                  </div>`
+                    var html_t =  html1 + html23;
+                    var html = `<div class="sidelist-x">
+                                    ${html_t}
+                                </div>`   
+                   nav_lis = nav_lis + html;
+                                         
+                }
+                $("#sidebar-x-1").html(nav_lis);
+
+               $(".i-list-con-x span a").eq(0).attr("href","http://127.0.0.1/code/second_test/home/list.html")
+               
+                
+
+            })
+ 
+    </script>
+    <script>
+         var lis_box = $("#sidebar-x-1")
+        //  console.log(lis_box);
+        
+         $("#sidebar-x-1").on("mouseenter",".sidelist-x",function(){
+             $('.i-list-x').css("display","none");
+            let ch = $(this).children('.i-list-x');
+            $(this).css("background","#eee");
+            ch.css('display',"block");
+               
+        })
+        $("#sidebar-x-1").on("mouseleave",".sidelist-x",function(){
+             $('.i-list-x').css("display","none");
+             $(this).css("background","#fff").css("border-left","none");
+           
+               
+        })
+    </script>
+</body>
+</html>

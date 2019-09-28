@@ -1,0 +1,70 @@
+.tgys {
+    border: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+.tgys p {
+    height: 27px;
+    background: url(https://img.j1.com/images/images1308/ico/slidelf.png?1234) 0 0 no-repeat;
+    background-position: 0 -81px;
+    background-repeat: repeat-x;
+}
+.tgys p a {
+    font: 400 14px/27px "\5FAE\8F6F\96C5\9ED1";
+    display: inline-block;
+    height: 27px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.tgys p a.act {
+    background: #fafafa;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    color: #e4393c;
+    margin-left: -1px;
+}
+.smasilde {
+    width: 223px;
+    height: 231px;
+    overflow: hidden;
+    position: relative;
+}
+.smasilde .hd {
+    height: 10px;
+    overflow: hidden;
+    position: absolute;
+    right: 80px;
+    bottom: 10px;
+    z-index: 1;
+}   
+.smasilde .hd ul {
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+}
+.smasilde .hd ul li {
+    float: left;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background: #939393;
+    cursor: pointer;
+    border-radius: 50%;
+    color: #fff;
+    font: 400 14px/22px "Arial";
+}
+.smasilde .hd ul li.on_hover {
+    background: #e4393c;
+    color: #fff;
+}
+.smasilde .bd {
+    position: relative;
+    height: 100%;
+    z-index: 0;
+}
+.smasilde .bd img {
+    width: 223px;
+    height: 231px;
+}
+.mb10 {
+    margin-bottom: 10px;
+}

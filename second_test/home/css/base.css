@@ -68,7 +68,7 @@ body {
 }
 
 a {
-	/* color: #666;	 */
+	color: #666;	
 	text-decoration: none;
 }
 
@@ -92,7 +92,7 @@ s, i, em {
 }
 body {
 	color: #3C3C3C;
-	background-color: #F1F1F4;
+	/* background-color: #F1F1F4; */
 }
 
 /*公共类*/

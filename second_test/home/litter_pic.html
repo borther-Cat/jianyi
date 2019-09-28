@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/litter_pic.css">
+    <script src="./js/jquery-3.4.1.js"></script>
+    
+</head>
+<body>
+    <div class="left-slide">
+        <p><span>&lt;</span><span>&gt;</span></p>
+    </div>
+    
+    <script>
+        $.ajax({
+                type: "get",
+                url: "http://127.0.0.1/code/second_test/home/server/get_litter_pic.php",
+                dataType: "json"
+            }).then(function({data}){
+                var html1 = data.map(function(ele){
+                    return html1 = `<li style="float: left; width: 245px;">
+                                    <a href="https://www.j1.com/b-0-8964.html#from_gd01">
+                                        <img  src=${ele.src}> 
+                                    </a>
+                                </li>`
+                }).join("");
+                console.log(html);
+                var html = `<div class="bd">
+                                <div class="tempWrap" style="overflow:hidden; position:relative; width:747px">
+                                    <ul class="picList" style="width: 6723px; position: relative; overflow: hidden; padding: 0px; margin: 0px;">
+                                        ${html1}
+                                    </ul>
+                                </div>
+                            </div>`
+                $(".left-slide").append(html)
+
+                $(function () {
+
+                    var timer;
+                    var index = 0;
+                    var length = 9;
+                    autoPlayer();
+
+                    //下一张
+                    $(".left-slide span:last").click(next)
+
+                    //上一张
+                    $(".left-slide span:first").click(prev)
+
+                    //当鼠标移入的时候,停止自动播放,否则恢复
+                    $(".left-slide").hover(function () {
+                    clearInterval(timer);
+                    },function () {
+                    autoPlayer();
+                    });
+
+                    function next(){
+                     
+                    index ++;
+                    if(index > length-1)
+                    {
+                        $(".picList").css("left",0);
+                        index = 0;
+                    }
+                    $(".picList").stop().animate({
+                        "left":-(index *747) +"px"
+                    })
+                    }
+
+                    function prev(){
+                    
+                    index --;
+                    if(index < 0)
+                    {
+                        $(".picList").css("left",-((length-1) *747) +"px");
+                        index = length -1;
+                    }
+                    $(".picList").stop().animate({
+                        "left":-(index *747) +"px"
+                    })
+                    }
+                    function autoPlayer() {
+                    timer = setInterval(function () {
+                        next();
+                    },2000)
+                    }
+                })
+            })
+    </script> 
+    <script>
+      
+    </script>
+</body>
+
+</html>

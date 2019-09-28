@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/banner_r.css">
+    <script src="./js/jquery-3.4.1.js"></script>
+</head>
+<body>
+   
+    <div class="tgys">
+        <p>
+            <a href="#" class="act">包邮</a>
+            <a href="#" class="">新品</a>
+            <a href="#" class="">促销</a>
+        </p>
+        <div class="xgg">
+           
+        </div>
+    </div>
+    <div class="j11308_hydro mb10">
+            <a href="#" title="公告" target="_blank">
+              <img src="https://img03.j1.com/images/images1308/20190922/gg_bj2.jpg" alt="公告">
+            </a>
+    </div>
+    <a href="https://www.j1.com/activity/czrm.html#from_ad02" title="全民撒欢" target="_blank">
+        <img width="225" height="200" src="https://img03.j1.com/images/images1308/20190423/jf.jpg" alt="全民撒欢">
+      </a>
+      <a href="http://www.huarunbao.com#from_ad03" target="_blank" title="e润保 华润保险经纪">
+        <img width="225" height="108" src="https://img.j1.com/images/images1308/by/sxgg_6.jpg" alt="e润保 华润保险经纪">
+      </a>  
+    <script>
+        $(function() {
+            $(".tgys p a").mouseenter(function() {
+                $(this).addClass("act").siblings().removeClass("act");
+                var index = $(this).index();
+               
+            })
+        })
+        $.ajax({
+                type: "get",
+                url: "http://127.0.0.1/code/second_test/home/server/get_banner_r.php",
+                dataType: "json"
+            }).then(function({data}){
+                var html1="";
+                var html2="";
+                var html3="";
+                for(var i=0;i<data.length;i++){
+                    if(i<3){
+                        html1 += `<li style="display: none;">
+                                        <a href="#">
+                                            <img  src=${data[i].src}>
+                                        </a>
+                                    </li>` 
+                    }else if(i<6){
+                        html2 += `<li style="display: none;">
+                                        <a href="#">
+                                            <img  src=${data[i].src}>
+                                        </a>
+                                    </li>` 
+                    }else{
+                        html3 += `<li style="display: none;">
+                                        <a href="#">
+                                            <img  src=${data[i].src}>
+                                        </a>
+                                    </li>`
+                    }
+                }
+                var html11= ` <div class="smasilde tg" style="display: block">
+                                    <div class="hd">
+                                            <ul>
+                                            <li class="on_hover"></li>
+                                            <li class=""></li>
+                                            <li class=""></li>
+                                            </ul>
+                                    </div>
+                                    <div class="bd">
+                                        <ul>
+                                            ${html1}
+                                        </ul>
+                                    </div>
+                                        
+                                </div>`
+                var html12= ` <div class="smasilde yus" style="display: none">
+                    <div class="hd">
+                            <ul>
+                            <li class="on_hover"></li>
+                            <li class=""></li>
+                            <li class=""></li>
+                            </ul>
+                    </div>
+                    <div class="bd">
+                        <ul>
+                            ${html2}
+                        </ul>
+                    </div>
+                        
+                </div>`
+                var html13= ` <div class="smasilde xinpin" style="display: none">
+                    <div class="hd">
+                            <ul>
+                            <li class="on_hover"></li>
+                            <li class=""></li>
+                            <li class=""></li>
+                            </ul>
+                    </div>
+                    <div class="bd">
+                        <ul>
+                            ${html3}
+                        </ul>
+                    </div>
+                        
+                </div>`
+                var html = html11+html12+html13;
+                $(".xgg").append(html);
+                $(".smasilde .bd ul li").eq(0).css("display","list-item")
+                $(".smasilde .bd ul li").eq(3).css("display","list-item")
+                $(".smasilde .bd ul li").eq(6).css("display","list-item")
+
+                $(".tgys p a").mouseenter(function() {
+                $(this).addClass("act").siblings().removeClass("act");
+                var index = $(this).index();
+                $(".smasilde").css("display","none")
+                $(".smasilde").eq(index).css("display","block")
+                
+               
+                })
+                $(".tg .hd ul li").mouseenter(function(){
+                    $(".tg .hd ul li").removeClass("on_hover");
+                    $(this).addClass("on_hover");
+                    var index = $(this).index();
+                    $(".tg .bd ul li").css("display","none")
+                    $(".tg .bd ul li").eq(index).css("display","list-item")
+
+                })
+                $(".yus .hd ul li").mouseenter(function(){
+                    $(".yus .hd ul li").removeClass("on_hover");
+                    $(this).addClass("on_hover");
+                    var index = $(this).index();
+                    $(".yus .bd ul li").css("display","none")
+                    $(".yus .bd ul li").eq(index).css("display","list-item")
+
+                })
+                $(".xinpin .hd ul li").mouseenter(function(){
+                    $(".xinpin .hd ul li").removeClass("on_hover");
+                    $(this).addClass("on_hover");
+                    var index = $(this).index();
+                    $(".xinpin .bd ul li").css("display","none")
+                    $(".xinpin .bd ul li").eq(index).css("display","list-item")
+
+                })
+                
+                
+            })
+    </script>
+</body>
+</html>

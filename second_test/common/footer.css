@@ -1,0 +1,214 @@
+.j11308_footer {
+    border-top: 2px solid #a6a6a6;
+    background: #e6e6e6;
+    overflow: hidden;
+    zoom: 1;
+    font-family: "Arial",Helvetica,sans-serif;
+}
+.j11308_width1 {
+    width: 1200px;
+    margin: 0 auto;
+    clear: both;
+}
+.j11308_yqlj {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0 0 5px;
+    clear: both;
+}
+.j11308_yqlj h2 {
+    float: left;
+    font-size: 12px;
+    color: #333;
+    line-height: 22px;
+}
+.j11308_yqlj a{
+    line-height: 22px;
+}
+.j11308_yqlj a:hover{
+    color: #c10000;
+    text-decoration: underline;
+}
+.j11308_wx {
+    background: #fff;
+    height: 150px;
+    border: solid 1px #ccc;
+    margin-top: 20px;
+}
+.j11308_wx .wx_left {
+    width: 475px;
+    float: left;
+    border-right: 1px solid #a6a6a6;
+    height: 120px;
+    padding: 15px;
+}
+.j11308_wx .jyw_wx {
+    height: 100px;
+    border-bottom: 1px solid #a6a6a6;
+    margin-bottom: 5px;
+}
+.clearfix {
+    display: block;
+}
+.jyw_wx .wxxz-1 {
+    width: 215px;
+    float: left;
+}
+.jyw_wx .wxxz-1 img {
+    float: left;
+    margin-right: 5px;
+}
+jyw_wx .wxxz-1 dt {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.jyw_wx .wxxz-1 dd {
+    line-height: 18px;
+    color: #9e9e9e;
+}
+.jyw_wx .wxxz-2 {
+    width: 230px;
+}
+.jyw_wx .wxxz-1 .mb5 {
+    margin-bottom: 5px;
+}
+.jyw_wx .wxxz-1 dl a {
+    display: inline-block;
+    width: 72px;
+    height: 24px;
+    background: url(https://img02.j1.com/images/images1308/ico/wxico_02.png?1234) 0 0 no-repeat;
+
+    background-position: 0 -322px;
+}
+.jyw_wx .wxxz-1 dl a:hover{
+    background-position:-78px -322px;
+}
+.jyw_wx .wxxz-1 dl .iphone_az {
+    background: url(https://img02.j1.com/images/images1308/ico/wxico_02.png?1234) 0 0 no-repeat;
+    background-position: 0 -349px;
+    width: 75px;
+    margin-left: 4px;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.j11308_wx .index_tel {
+    font-size: 14px;
+    color: #333;
+}
+.j11308_wx .index_tel span {
+    float: right;
+}
+.j11308_wx .index_tel i {
+    color: #c10000;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+}
+.foot_list {
+    width: 690px;
+    float: left;
+    padding-top: 10px;
+}
+.foot_list ul {
+    border-right: 1px solid #E0E0E0;
+    float: left;
+    height: 130px;
+    line-height: 25px;
+    width: 114px;
+}
+.foot_list li {
+    padding: 0 0 0 25px;
+}
+.foot_list li a:hover{
+    color: #c10000;
+    text-decoration: underline;
+}
+.foot_list ul.nbd {
+    border: none;
+}
+.clear {
+    clear: both;
+}
+.cl {
+    height: 10px;
+    line-height: 1px;
+    clear: both;
+    font-size: 0;
+}
+.j11308_renzheng {
+    text-align: center;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+.zhengshu a {
+    line-height: 22px;
+}
+.zhengshu a:hover{
+    color: #c10000;
+    text-decoration: underline;
+}
+.foot_img a {
+    display: inline-block;
+    color: #333;
+}
+.j11308_renzheng .foot_img img{
+    margin-left:10px;
+}
+						
+.foot_img a:hover {
+    color: #333;
+}
+.foot_img a:hover p{
+    display: block;
+}
+.foot_tips{
+    position: relative;
+}
+.tips_box{
+    display: none;
+    border: 1px solid #787878;
+    width: 338px;
+    background: #fff;
+    padding: 10px 19px;
+    line-height: 15px;
+    border-radius: 5px;
+    position: absolute;
+    left: -94px;
+    top: -67px;
+    font-size: 10px;
+}
+.border-down-empty{
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #787878;
+    position: absolute;
+    left: 109px;
+    bottom: -10px;
+}
+
+.border-down-empty:after{
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #ffff;
+    position: absolute;
+    left: -12px;
+    top: -14px;
+}
+.security {
+    background: url(https://img02.j1.com/images/images1308/ico/j1_index_security.png?1234) 0 0 no-repeat;
+    padding-left: 20px;
+    color: #333;
+}
+				

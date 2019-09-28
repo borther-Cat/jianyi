@@ -1,0 +1,183 @@
+[
+    {
+        "floor": "6F", 
+        "cite": "日用百货", 
+        "title": [
+            "厨房达人", 
+            "个人护理", 
+            "日用百货", 
+            "生活电器"
+        ], 
+        "list": [
+            {
+                "list_title": "洗护用品", 
+                "lis": [
+                    "洗发水", 
+                    "沐浴露", 
+                    "牙膏", 
+                    "花露水"
+                ]
+            }, 
+            {
+                "list_title": "女性护理", 
+                "lis": [
+                    "卫生巾", 
+                    "私密护理", 
+                    "脱毛膏", 
+                    "隔离防晒"
+                ]
+            }, 
+            {
+                "list_title": "家庭清洁", 
+                "lis": [
+                    "衣物清洁", 
+                    "纸制品", 
+                    "厨卫清洁", 
+                    "居室清洁"
+                ]
+            }, 
+            {
+                "list_title": "生活电器", 
+                "lis": [
+                    "原汁机", 
+                    "电风扇", 
+                    "厨房电器", 
+                    "个人护理电器"
+                ]
+            }
+        ], 
+        "more": "日用百货>>", 
+        "center": [
+            {
+                "top_list": [
+                    "https://img03.j1.com/images/images1308/xb/20160406/20170511.jpg", 
+                    "https://img03.j1.com//images/images1308/xb/20160406/t1-2.jpg", 
+                    "https://img01.j1.com/images/images1308/xb/20160406/20171108-r-c-2-2.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img02.j1.com/images/images1308/xb/20160406/06-02270.jpg", 
+                        "bot_price": "¥168.00", 
+                        "bot_del": "小熊 酸奶机SNJ-A10K5全自动酸奶机家用定时陶瓷8分杯内胆"
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/images/images1308/xb/20160406/06-04338.jpg", 
+                        "bot_price": "¥399.00", 
+                        "bot_del": "飞利浦 烤面包机 HD2584/50"
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/images/images1308/xb/20160406/06-00507.jpg", 
+                        "bot_price": "¥399.00", 
+                        "bot_del": "Hamilton Beach 全自动软冰淇淋机 68550-CN 蓝莓色（双碗）"
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/images/images1308/xb/20160406/06-04326.jpg", 
+                        "bot_price": "¥799.00", 
+                        "bot_del": "ACA/北美电器 多用电热锅 ALY-HG1640J"
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "https://img01.j1.com/images/images1308/xb/20160108/lv.jpg", 
+                    "https://img02.j1.com/images/images1308/xb/20160406/fz.jpg", 
+                    "https://img03.j1.com/images/images1308/xb/20160406/wsj.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img01.j1.com/images/images1308/xb/20160406/A3300355.jpg", 
+                        "bot_price": "¥29.00", 
+                        "bot_del": " 花王 美体润肤香皂组合"
+                    }, 
+                    {
+                        "bot_src": "https://img04.j1.com/images/images1308/xb/20160406/A3300390.jpg", 
+                        "bot_price": "¥169.00", 
+                        "bot_del": "花王 泡沫洗手液组合装"
+                    }, 
+                    {
+                        "bot_src": "https://img01.j1.com/images/images1308/xb/20160406/20171108-r-g-1-3.jpg", 
+                        "bot_price": "¥140.00", 
+                        "bot_del": " 花王 乐而雅日本原装进口 日夜超薄棉柔卫生巾组合86片 "
+                    }, 
+                    {
+                        "bot_src": "https://img04.j1.com/images/images1308/xb/20160406/A13000086.jpg", 
+                        "bot_price": "¥84.00", 
+                        "bot_del": "云南白药 牙膏留兰香型180g*3 牙膏 "
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "https://img01.j1.com/images/images1308/xb/20160108/r1829.jpg", 
+                    "https://img02.j1.com/images/images1308/xb/20160108/zx.jpg", 
+                    "https://img03.j1.com/images/images1308/xb/20160108/bz.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img01.j1.com/images/images1308/xb/20160406/46741.jpg", 
+                        "bot_price": "¥33.80", 
+                        "bot_del": "小林 暖宝宝暖贴 10片 "
+                    }, 
+                    {
+                        "bot_src": "https://img01.j1.com/images/images1308/xb/20160406/A3300366.jpg", 
+                        "bot_price": "¥78.00", 
+                        "bot_del": " 花王 厨卫去污组合 "
+                    }, 
+                    {
+                        "bot_src": "https://img01.j1.com/images/images1308/xb/20160406/06-03645.jpg", 
+                        "bot_price": "¥838.00", 
+                        "bot_del": "康宁 晶彩透明锅（经典系列）"
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/images/images1308/xb/20160406/06-03919.jpg", 
+                        "bot_price": "¥49.00", 
+                        "bot_del": " 日本宝洁 洗衣凝珠（百合）18枚"
+                    }
+                ]
+            }, 
+            {
+                "top_list": [
+                    "https://img04.j1.com/images/images1308/xb/20160406/20160718_11.jpg", 
+                    "https://img02.j1.com/images/images1308/xb/20160406/20160718_2.jpg", 
+                    "https://img03.j1.com/images/images1308/xb/20160406/20181127_jd.jpg"
+                ], 
+                "bot_dl": [
+                    {
+                        "bot_src": "https://img02.j1.com/images/images1308/xb/20160406/06-04104.jpg", 
+                        "bot_price": "¥78.00", 
+                        "bot_del": "拉鲁 超声波USB驱蚊器 LL9002 清新绿"
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/images/images1308/xb/20160406/06-02322.jpg", 
+                        "bot_price": "¥458.00", 
+                        "bot_del": "先锋 机械冷风扇 LG04-9DREC"
+                    }, 
+                    {
+                        "bot_src": "https://img02.j1.com/images/images1308/xb/20160406/06-04151.jpg", 
+                        "bot_price": "¥799.00", 
+                        "bot_del": "莱克 除螨仪 VC-B502-3"
+                    }, 
+                    {
+                        "bot_src": "https://img03.j1.com/images/images1308/xb/20160406/06-02638.jpg", 
+                        "bot_price": "¥3280.00", 
+                        "bot_del": "HONEYWELL/霍尼韦尔 智能空气净化器 KJ305F-PAC2101T2"
+                    }
+                ]
+            }
+        ], 
+        "pic": [
+            "https://img01.j1.com/images/images1308/logo/zishentang.jpg", 
+            "https://img02.j1.com/images/images1308/logo/slr.jpg", 
+            "https://img03.j1.com/images/images1308/logo/yunnan.jpg", 
+            "https://img04.j1.com/images/images1308/logo/shufujia.jpg", 
+            "https://img02.j1.com/images/images1308/logo/lv.jpg", 
+            "https://img02.j1.com/images/images1308/logo/weida.jpg", 
+            "https://img03.j1.com/images/images1308/logo/hw.jpg", 
+            "https://img04.j1.com/images/images1308/logo/ABC.jpg", 
+            "https://img01.j1.com/images/images1308/logo/philips.jpg", 
+            "https://img02.j1.com/images/images1308/logo/ACA.jpg", 
+            "https://img03.j1.com/images/images1308/logo/shushida.jpg", 
+            "https://img04.j1.com/images/images1308/logo/bhlogo_59.jpg"
+        ]
+    }
+]

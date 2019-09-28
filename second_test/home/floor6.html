@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/floor.css">
+    <script src="./js/jquery-3.4.1.js"></script>
+</head>
+<body>
+    <div id="floorDiv9" class="clearfix">
+        <div class="j11308_main_floor yellow">
+            
+        </div>
+    </div>
+    <script>
+ 
+         $.ajax({
+                type: "get",
+                url: "http://127.0.0.1/code/second_test/home/server/floor6.php",
+                dataType: "json"
+            }).then(function({data}){
+                // console.log(data);
+                var html1 = `<h2 class="clearfix">
+		                        <span>${data[0].floor}</span>
+                                <cite>${data[0].cite}</cite>
+                            </h2>`
+                // var html2 = `<h2 class="zdwz">${data[0].h2_r} </h2>`
+                var html3_t = data[0].title.map(function(ele){
+                    return `<a class="">${ele}</a>`
+                }).join("")
+                html3 = `<div class="j11402_tabstitle">${html3_t}</div>`
+                var html4_t =[];
+                data[0].list.map(function(ele){
+                    var html_dt = `<dt>
+                                    <a href="#" >${ele.list_title}</a>
+                                    </dt>`
+                    var html_dda = ele.lis.map(function(val){
+                        return `<a href="#">${val}</a>`
+                    }).join("")
+                    var html_dd = `<dd class = "clearfix">${html_dda}</dd>`
+                    var html_dl = html_dt + html_dd;
+                    
+                    html4_t.push(`<div class="clearfix"><dl>${html_dl}</dl></div>`)
+                })
+                var html4_str = html4_t.join("");
+                var html4_p = `<p>
+			                    <a href="#">${data[0].more}&gt;&gt;</a>
+                                </p>`
+                var html4_l = html4_str + html4_p;
+                var html4 = `<div class="tabsconleft">${html4_l}</div>`
+                var obj = data[0];
+                var html5_arr =[];
+                for(var i=0;i<obj.center.length;i++){
+                    var obj1 = obj.center;
+                    var html5_img=obj1[i].top_list.map(function(img_src){
+                        return `<a href="#">
+                                <img  src=${img_src} style="display: inline;">
+                                </a>`
+                    }).join("");
+                    var html5_top = `<div class="tabsconcentertop clearfix">
+                                            ${html5_img}
+                                    </div>`
+                    var obj_bot =obj1[i].bot_dl;
+                    console.log(obj_bot);
+                    var html_bot ="";
+                    var html5_dl ="";
+                    for(var j=0;j<obj_bot.length;j++){
+                        var html_dt = `<dt>
+                                            <a href="#" >
+                                                <img  src=${obj_bot[j].bot_src} style="display: inline;">
+                                            </a>
+                                        </dt>`
+                        var html_dd = `<dd>
+                                            <cite>${obj_bot[j].bot_price}</cite> 
+                                            <a href="#">
+                                                ${obj_bot[j].bot_del}
+                                            </a>
+                                        </dd>`
+                        var html_dl = html_dt + html_dd;
+                        var html_dll = `<dl>${html_dl}</dl>`
+                        html5_dl += html_dll;
+                    }
+                    var html5_bot = `<div class="tabsconcenterbottom clearfix">
+                                        ${html5_dl}
+                                    </div>`
+                    var html5_t = html5_top + html5_bot;
+                    html5_arr.push(`<div class="tabsconcenter" style="display: none;">${html5_t}</div>`)
+
+                }
+                    var html5 = html5_arr.join("");
+                var html6_t = data[0].pic.map(function(pic_src){
+                    return `<li>
+                                <a href="#" >
+                                    <img src=${pic_src} style="display: inline;">
+                                </a>
+                            </li>`
+                }).join("");    
+                var html6 = `<div class="tabsconright">
+                                <ul class="clearfix">
+                                    ${html6_t}
+                                </ul>
+                            </div>` 
+
+                            var html = html1 + html3 + html4 + html5 + html6;
+                            $(".yellow").append(html);
+                            $(".yellow .tabsconcenter").eq(0).css("display","block");
+                            
+                            $(".tabsconcentertop a:first-child img").addClass('first');
+                            $(".j11402_tabstitle a:first-child").addClass("current");   
+
+                    $(".yellow .j11402_tabstitle").children().on("mouseenter",function(){
+                        console.log("ppppppp")
+                        $(this).addClass("current").siblings().removeClass("current");
+                        $(".yellow .tabsconcenter").css("display","none");
+                        $(".yellow .tabsconcenter").eq($(this).index()).css("display","block");
+                    })
+            })
+        </script>
+</body>
+</html>

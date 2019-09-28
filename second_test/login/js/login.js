@@ -27,8 +27,8 @@ $(function(){
          dataType: "json",
          success: function(response) {
              if (response.status == "success") {
-                 alert(response.data.msg);
-               //   window.location.href = "./home.html";
+               //   alert(response.data.msg);
+                 window.location.href = "http://127.0.0.1/code/second_test/home/home.html";
              }
          }
       });
@@ -74,7 +74,7 @@ $(function(){
                            Cookie.set("password", passwordID, 7);
                         }
                      
-                     //   window.location.href = "./home.html";
+                        window.location.href = "http://127.0.0.1/code/second_test/home/home.html";
                    } else {
                      if(response.data.msg == 2){
                         

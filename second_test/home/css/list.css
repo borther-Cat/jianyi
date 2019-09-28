@@ -1,0 +1,477 @@
+body{
+    background: #fff;
+    width: 100%;
+    
+}
+#listpagecontainer {
+    PADDING-BOTTOM: 10px;
+    MARGIN: 0;
+    PADDING-LEFT: 0;
+    WIDTH: 100%;
+    
+    PADDING-RIGHT: 0;
+    PADDING-TOP: 0;
+    background: #fff;
+    clear: both;
+}
+#listpagecontent {
+    POSITION: relative;
+    margin: 0 auto 15px;
+    width: 1200px;
+    height: 100%;
+    background: #fff;
+    clear: both;
+}
+.detailnav {
+    position: relative;
+    padding: 8px 0;
+}
+.detailnav a:hover{
+    color: red;
+}
+.listpageleft {
+    PADDING-BOTTOM: 0;
+    MARGIN: 0;
+    PADDING-LEFT: 0;
+    WIDTH: 205px;
+    PADDING-RIGHT: 0;
+    FLOAT: left;
+    OVERFLOW: hidden;
+    PADDING-TOP: 0;
+}
+.list-Screening {
+    BORDER-BOTTOM: #e2e2e2 1px solid;
+    BORDER-LEFT: #e2e2e2 1px solid;
+    MARGIN: 0 0 10px;
+    WIDTH: 203px;
+    border-top: #e2e2e2 1px solid;
+    BORDER-RIGHT: #e2e2e2 1px solid;
+}
+.list_h1 {
+    font: 400 16px/30px "\5FAE\8F6F\96C5\9ED1";
+    color: #000;
+    padding-left: 10px;
+    height: 30px;
+    border-bottom: 1px solid #E2E2E2;
+    background: #f5f5f5;
+}
+.listpageChooseBox {
+    PADDING-BOTTOM: 5px;
+    MARGIN-TOP: 5px;
+    WIDTH: 173px;
+    PADDING-TOP: 5px;
+    padding-left: 10px;
+}
+.listpageChooseBox H3 {
+    BORDER-BOTTOM: #dbdbdb 1px dotted;
+    LINE-HEIGHT: 20px;
+    MARGIN-BOTTOM: 7px;
+    HEIGHT: 20px;
+    FONT-WEIGHT: normal;
+}
+.list-Screening {
+    BORDER-BOTTOM: #e2e2e2 1px solid;
+    BORDER-LEFT: #e2e2e2 1px solid;
+    MARGIN: 0 0 10px;
+    WIDTH: 203px;
+    border-top: #e2e2e2 1px solid;
+    BORDER-RIGHT: #e2e2e2 1px solid;
+}
+.list_h1 {
+    font: 400 16px/30px "\5FAE\8F6F\96C5\9ED1";
+    color: #000;
+    padding-left: 10px;
+    height: 30px;
+    border-bottom: 1px solid #E2E2E2;
+    background: #f5f5f5;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.listpageBox {
+    MARGIN-TOP: 5px;
+}
+.listpageBox UL {
+    PADDING-BOTTOM: 0;
+    MARGIN: 0;
+    PADDING-LEFT: 0;
+    PADDING-RIGHT: 0;
+    PADDING-TOP: 0;
+}
+.listleft-tj {
+    WIDTH: 205px;
+    MARGIN-BOTTOM: 8px;
+}
+img {
+    vertical-align: middle;
+}
+
+.listpageright {
+    PADDING-BOTTOM: 0;
+    MARGIN: 0 0 0 10px;
+    PADDING-LEFT: 0;
+    WIDTH: 985px;
+    PADDING-RIGHT: 0;
+    background: #fff;
+    FLOAT: left;
+    PADDING-TOP: 0;
+}
+.borderbox {
+    border: 1px solid #e2e2e2;
+    margin-bottom: 10px;
+    color: #333;
+}
+.borderbox .tjtitle {
+    float: left;
+    text-align: right;
+    padding: 10px;
+}
+.borderbox .tjdes {
+    float: left;
+    width: 890px;
+    text-align: left;
+    padding: 10px 10px 10px 0;
+}
+.j1131025_searchlist {
+    border: 1px solid #e2e2e2;
+    margin-bottom: 30px;
+    border-top: 2px solid #c40000;
+}
+.j1131025_searchlist h1 {
+    font: 400 15px/30px "\5FAE\8F6F\96C5\9ED1";
+    margin: 4px 10px;
+    color: #c40000;
+}
+.j1131025_searchlist dl {
+    border-bottom: 1px solid #e2e2e2;
+    line-height: 22px;
+    padding: 8px 0 4px 0;
+    margin: 4px 10px;
+}
+.j1131025_searchlist dt {
+    float: left;
+    width: 73px;
+    text-align: right;
+    height: 24px;
+    line-height: 24px;
+}
+.j1131025_searchlist dd {
+    float: left;
+    width: 890px;
+}
+.j1131025_searchlist .choose a.rechose {
+    background: url(https://img.j1.com/images/newchooselist_icon.png) no-repeat 0 -135px;
+    color: #333;
+    padding-left: 15px;
+    border: 0;
+    margin-left: 5px;
+}
+.j1131025_searchlist .choose a {
+    
+    display: inline-block;
+    height: 15px;
+    line-height: 15px;
+    margin-right: 5px;
+    position: relative;
+    padding: 2px 23px 2px 4px;
+    vertical-align: middle;
+    width: auto;
+}
+.j1131025_searchlist dd a {
+    margin-right: 10px;
+    float: left;
+    display: block;
+    width: 114px;
+    overflow: hidden;
+    height: 24px;
+    line-height: 24px;
+}
+.morebuttonwrap {
+    position: relative;
+
+    display: block;
+}
+.pl_morebutton {
+    position: absolute;
+    bottom: -25px;
+    background: #fff;
+    left: 450px;
+}
+.pl_morebutton span {
+    display: block;
+    padding-left: 17px;
+    background: url(https://img.j1.com/images/listpage/pl_moredown.gif) 69px 10px no-repeat;
+    padding-right: 10px;
+    cursor: pointer;
+    width: 63px;
+    border: 1px solid #e2e2e2;
+    border-top: none;
+}
+.listsearchmain3-con {
+    height: 26px;
+    background: #f5f5f5;
+    padding: 8px;
+}
+.px {
+    width: 300px;
+    height: 23px;
+    float: left;
+}
+.px dt {
+    float: left;
+    display: block;
+}
+.px dd {
+    float: left;
+    border: 1px solid #ccc;
+    height: 23px;
+    display: block;
+    border-right: 0;
+}
+.px dd a.current {
+    background: #c40000;
+    color: #fff;
+}
+.px dd a {
+    border-right: 1px solid #ccc;
+    line-height: 20px;
+    display: block;
+    height: 20px;
+    float: left;
+    padding: 2px 2px 2px 4px;
+    width: 36px;
+}
+.fl {
+    float: left;
+}
+
+.px dd a span.up{
+    background: url(https://img.j1.com/images/images1308/listpx0410.png) no-repeat;
+    background-position: -92px -32px;
+    margin-left: 2px;
+    display: block;
+    width: 10px;
+    height: 16px;
+    float: right;
+}
+.px dd a span.down{
+    background: url(https://img.j1.com/images/images1308/listpx0410.png) no-repeat;
+    background-position: -92px -50px;
+    margin-left: 2px;
+    display: block;
+    width: 10px;
+    height: 16px;
+    float: right;
+}
+
+.listsearchmain4 {
+    PADDING-BOTTOM: 0;
+    MARGIN: 0;
+    PADDING-LEFT: 0;
+    WIDTH: 985px;
+    PADDING-RIGHT: 0;
+    OVERFLOW: hidden;
+    PADDING-TOP: 0;
+}
+.listsearch-jg {
+    BORDER-BOTTOM: #ccc 1px dotted;
+    PADDING-BOTTOM: 15px;
+    MARGIN: 16px auto;
+    WIDTH: 1000px;
+    font-size: 12px;
+    COLOR: #a7a7a7;
+    OVERFLOW: hidden;
+}
+.listsearch-one {
+    BORDER-BOTTOM: #fff 2px solid;
+    BORDER-LEFT: #fff 2px solid;
+    WIDTH: 235px;
+    FLOAT: left;
+    OVERFLOW: hidden;
+    BORDER-TOP: #fff 2px solid;
+    MARGIN-RIGHT: 9px;
+    BORDER-RIGHT: #fff 2px solid;
+}
+.listsearch-one:hover {
+    border: 2px solid #eee;
+}
+.listsearch-one:hover .listshop a{
+    
+    color: #fff;
+    background: red;
+}
+
+.listsearch-one:hover .listshop a .shopnow {
+    
+    background-position: 0 -73px;
+}
+  
+.listsearch-ztimg {
+    WIDTH: 234px;
+    HEIGHT: 210px;
+    position: relative;
+}
+.listsearch-ztimg span .sgz {
+    padding-top: 20px;
+    text-align: center;
+}
+.listsearch-ztimg span {
+    background: url(https://img.j1.com/images/images1308/listseachbg0411.png) no-repeat;
+    display: block;
+    width: 47px;
+    height: 47px;
+    font: 700 12px "\5FAE\8F6F\96C5\9ED1";
+    color: #fff;
+    padding: 10px 4px 0 6px;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    text-shadow: 1px 1px 0 #e4393c;
+}
+.listsearch-ztimg center {
+    display: block;
+    margin-top: 10px;
+}
+img {
+    vertical-align: middle;
+}
+.listsearch-cx {
+    line-height: 18px;
+    padding-left: 3px;
+    width: 228px;
+    padding-right: 3px;
+    height: 18px;
+    text-align: left;
+    overflow: hidden;
+    color: #c40000;
+}
+.listsearch-mc {
+    line-height: 18px;
+    padding-left: 3px;
+    width: 228px;
+    padding-right: 3px;
+    height: 36px;
+    text-align: left;
+    overflow: hidden;
+}
+.listsearch-mc a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.listsearch-price {
+    LINE-HEIGHT: 25px;
+    PADDING-LEFT: 3px;
+    WIDTH: 228px;
+    PADDING-RIGHT: 3px;
+    BACKGROUND: #fff;
+    HEIGHT: 25px;
+}
+.liststyle2 {
+    font: 700 14px/18px "arial";
+    color: #c40000;
+}
+.listsearch-des {
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 3px 0;
+}
+.listsearch-des span {
+    color: #666;
+    margin-right: 10px;
+}
+.listsearch-des a:hover{
+    color: #0081cc;
+}
+.listsearch-xq {
+    LINE-HEIGHT: 40px;
+    PADDING-LEFT: 3px;
+    WIDTH: 230px;
+    PADDING-RIGHT: 3px;
+    HEIGHT: 32px;
+    margin-top: 4px;
+}
+.listshop a {
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #bbb;
+    color: #333;
+    width: 105px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    position: relative;
+}
+.listshop a .shopnow {
+    background: url(https://img.j1.com/images/images1308/listseachbg0411.png) no-repeat;
+    background-position: 0 -89px;
+    display: block;
+    float: left;
+    width: 16px;
+    height: 18px;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+}
+.listshop cite {
+    position: absolute;
+    left: 32px;
+}
+.listcheck:hover a{
+    background: red;
+    color: #fff;
+}
+.listcheck a {
+    border: 1px solid #bbb;
+    color: #333;
+    display: block;
+    float: left;
+    width: 105px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+
+  
+.page {
+    /* position: fixed; */
+    /* bottom: 0px; */
+    width: 1130px;
+    margin: 40px auto;
+    /* margin-top: 100px; */
+    /* background: #195; */
+    text-align: center;
+    /* font-size: 13px; */
+    font-family: Verdana;
+    padding: 10px 16px
+}
+
+.page a {
+    display: inline-block;
+    height: 20px;
+    padding: 0 7px;
+    border: #CCC solid 1px;
+    /* font: 12px/20px Verdana; */
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 5px;
+    background: #FFF
+}
+
+.page a:hover {
+    background: #09F;
+    color: #FFF;
+    /* border-color: #09F */
+}
+
+.page .active {
+    background: #CCC
+}
+
+.page a:active {
+    opacity: .8
+}

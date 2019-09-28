@@ -264,8 +264,8 @@ $(function(){
                         success: function(response) {
                             // console.log(response);
                             if (response.status == "success") {
-                                alert(response.data.msg);
-                                // window.location.href = "./home.html";
+                                // alert(response.data.msg);
+                                 window.location.href = "http://127.0.0.1/code/second_test/home/home.html";
                             } else {
                                 alert(response.data.msg);
                             }

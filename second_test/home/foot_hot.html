@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/foot_hot.css">
+    <script src="./js/jquery-3.4.1.js"></script>
+</head>
+<body>
+       <div class="publiclay hotj">
+            <h4>热门推荐</h4>
+            <div class="hotmend">
+                    <div class="hd" style="display: none;">
+                        <a class="next"><em class="jtright"></em></a> <a class="prev"><em class="jtleft"></em></a>
+                    </div>
+                    <div class="bd">
+                        <div class="tempWrap" style="overflow:hidden; position:relative; width:1140px">
+                            <ul class="picList" style="width: 6840px; position: relative; overflow: hidden; padding: 0px; margin: 0px; ">
+                            
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+       </div>
+    <script>
+        $.ajax({
+                type: "get",
+                url: "http://127.0.0.1/code/second_test/home/server/get_foot_hot.php",
+                dataType: "json"
+            }).then(function({data}){
+                var html1 ="";
+                var html2 ="";
+                var html3 ="";
+                var html4 ="";
+                var html5 ="";
+                var html6 ="";
+                data.map(function(ele,index){
+                    if(index<10){
+                        var html1_t = ` <div class="hotmain ">
+                                        <a href="#" class="pic">
+                                        <img src=${ele.src} width="80" height="80" ></a>
+                                        <a href="#" class="text-01"> ${ele.del}  </a>
+                                    </div>`
+                        html1 += html1_t;
+                        
+                    }else if(index<19){
+                        var html2_t = ` <div class="hotmain ">
+                                        <a href="#" class="pic">
+                                        <img src=${ele.src} width="80" height="80" ></a>
+                                        <a href="#" class="text-01"> ${ele.del}  </a>
+                                    </div>`
+                        html2 += html2_t;
+                    }else if(index<29){
+                        var html3_t = ` <div class="hotmain ">
+                                        <a href="#" class="pic">
+                                        <img src=${ele.src} width="80" height="80" ></a>
+                                        <a href="#" class="text-01"> ${ele.del}  </a>
+                                    </div>`
+                        html3 += html3_t;
+                    }else if(index<38){
+                        var html4_t = ` <div class="hotmain ">
+                                        <a href="#" class="pic">
+                                        <img src=${ele.src} width="80" height="80" ></a>
+                                        <a href="#" class="text-01"> ${ele.del}  </a>
+                                    </div>`
+                        html4 += html4_t;
+                    }
+                    else if(index<48){
+                        var html5_t = ` <div class="hotmain ">
+                                        <a href="#" class="pic">
+                                        <img src=${ele.src} width="80" height="80" ></a>
+                                        <a href="#" class="text-01"> ${ele.del}  </a>
+                                    </div>`
+                        html5 += html5_t;
+                    }else {
+                        var html6_t = ` <div class="hotmain ">
+                                        <a href="#" class="pic">
+                                        <img src=${ele.src} width="80" height="80" ></a>
+                                        <a href="#" class="text-01"> ${ele.del}  </a>
+                                    </div>`
+                        html6 += html6_t;
+                    }
+                })
+               var arr = [html1,html2,html3,html4,html5,html6]
+               var html0=arr.map(function(li){
+                   return `<li style="float: left; width: 1140px;">
+                                ${li}
+						</li>`
+               })
+               console.log(html0);
+               
+               $(".publiclay .picList").append(html0);
+               $(".publiclay .picList .hotmain").eq(4).addClass("m0")
+               $(".publiclay .picList .hotmain").eq(9).addClass("m0")
+               $(".publiclay .picList .hotmain").eq(14).addClass("m0")
+               $(".publiclay .picList .hotmain").eq(23).addClass("m0")
+               $(".publiclay .picList .hotmain").eq(28).addClass("m0")
+               $(".publiclay .picList .hotmain").eq(33).addClass("m0")
+               $(".publiclay .picList .hotmain").eq(42).addClass("m0")
+               $(".publiclay .picList .hotmain").eq(47).addClass("m0")
+               $(".publiclay .picList .hotmain").eq(52).addClass("m0")
+
+               $(function () {
+
+                var timer;
+                var index = 0;
+                var length = 6;
+                autoPlayer();
+
+                //下一张
+                $(".hotmend .next").click(next)
+
+                //上一张
+                $(".hotj .hotmend .prev").click(prev)
+
+                //当鼠标移入的时候,停止自动播放,否则恢复
+                $(".hotmend").hover(function () {
+                $(".hd").css("display","block")
+                clearInterval(timer);
+                },function () {
+                autoPlayer();
+                $(".hd").css("display","none")
+                });
+
+                function next(){
+                    console.log("qqqqqqq");
+                index ++;
+                if(index > length-1)
+                {
+                    $(".hotj .picList").css("left",0);
+                    index = 0;
+                }
+                $(".hotj .picList").stop().animate({
+                    "left":-(index *1140) +"px"
+                })
+                }
+
+                function prev(){
+                    console.log("wwwwwww");
+                    
+                index --;
+                if(index < 0)
+                {
+                    $(".hotj .picList").css("left",-((length-1) *1140) +"px");
+                    index = length -1;
+                }
+                $(".hotj .picList").stop().animate({
+                    "left":-(index *1140) +"px"
+                })
+                }
+                function autoPlayer() {
+                timer = setInterval(function () {
+                    next();
+                },2000)
+                }
+            })
+                
+                
+
+            })
+    </script>
+</body>
+</html>
