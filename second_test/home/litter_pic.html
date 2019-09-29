@@ -30,7 +30,7 @@
                 }).join("");
                 console.log(html);
                 var html = `<div class="bd">
-                                <div class="tempWrap" style="overflow:hidden; position:relative; width:747px">
+                                <div class="tempWrap litter" style="overflow:hidden; position:relative; width:747px">
                                     <ul class="picList" style="width: 6723px; position: relative; overflow: hidden; padding: 0px; margin: 0px;">
                                         ${html1}
                                     </ul>
@@ -63,10 +63,10 @@
                     index ++;
                     if(index > length-1)
                     {
-                        $(".picList").css("left",0);
+                        $(".litter .picList").css("left",0);
                         index = 0;
                     }
-                    $(".picList").stop().animate({
+                    $(".litter .picList").stop().animate({
                         "left":-(index *747) +"px"
                     })
                     }
@@ -76,10 +76,10 @@
                     index --;
                     if(index < 0)
                     {
-                        $(".picList").css("left",-((length-1) *747) +"px");
+                        $(".litter .picList").css("left",-((length-1) *747) +"px");
                         index = length -1;
                     }
-                    $(".picList").stop().animate({
+                    $(".litter .picList").stop().animate({
                         "left":-(index *747) +"px"
                     })
                     }

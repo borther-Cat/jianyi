@@ -199,8 +199,9 @@ $(function(){
                 return datetime;
             }
 
-            // num = getRandom(1000, 9999);
-            num = 999;
+            num = getRandom(1000, 9999);
+            console.log(num);
+            // num = 999;
             $.ajax({
                 type: 'post',
                 url: 'http://route.showapi.com/28-1',
@@ -219,7 +220,7 @@ $(function(){
                 },
                 success: function(result) {
                     console.log(result) //console变量在ie低版本下不能用
-                    alert(result.showapi_res_code)
+                    // alert(result.showapi_res_code)
                 }
             });
 
@@ -242,7 +243,7 @@ $(function(){
         ev.preventDefault();
         // let getNum = imageCodeInput.val().trim();
         let isChecked = $(".checkbox").is(":checked");
-        let getNum = 999;   
+        let getNum = num;   
         if(getNum != num){
             $("#checkCode").html('<em class="ico"></em>验证码不正确');
             $("#checkCode").prev().prev().prev().css("border","1px solid #c40000");
@@ -264,7 +265,7 @@ $(function(){
                         success: function(response) {
                             // console.log(response);
                             if (response.status == "success") {
-                                // alert(response.data.msg);
+                                alert(response.data.msg);
                                  window.location.href = "http://127.0.0.1/code/second_test/home/home.html";
                             } else {
                                 alert(response.data.msg);

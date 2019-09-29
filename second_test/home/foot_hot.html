@@ -90,7 +90,7 @@
                                 ${li}
 						</li>`
                })
-               console.log(html0);
+            
                
                $(".publiclay .picList").append(html0);
                $(".publiclay .picList .hotmain").eq(4).addClass("m0")
@@ -114,7 +114,7 @@
                 $(".hotmend .next").click(next)
 
                 //上一张
-                $(".hotj .hotmend .prev").click(prev)
+                $(".hotmend .prev").click(prev)
 
                 //当鼠标移入的时候,停止自动播放,否则恢复
                 $(".hotmend").hover(function () {
@@ -126,7 +126,7 @@
                 });
 
                 function next(){
-                    console.log("qqqqqqq");
+                   
                 index ++;
                 if(index > length-1)
                 {

@@ -89,7 +89,13 @@
                 swiper.pagination.bullets[i].onmouseover=function(){
                     this.click();
                 };
-            } 
+            }
+            $('.slide-top').mouseenter(function(){
+            swiper.autoplay.stop();
+            })
+            $('.slide-top').mouseleave(function(){
+            swiper.autoplay.start();
+            }) 
     </script>
     <script>
     $(".litter_pic").append().load("http://127.0.0.1/code/second_test/home/litter_pic.html")

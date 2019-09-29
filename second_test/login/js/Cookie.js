@@ -10,17 +10,17 @@
          })
          return result;
      },
-     set(key, val, day) {
+     set(key, val,path, day) {
          if (day) {
              let date = new Date();
              date.setDate(date.getDate() + day);
-             document.cookie = `${key}=${val};expires=${date}`;
+             document.cookie = `${key}=${val};path=${path};expires=${date}`;
          } else {
              document.cookie = `${key}=${val}`;
          }
      },
      remove(key) {
-         this.set(key, null, -1);
+         this.set(key, null,'/', -1);
      },
      clear() {
          this.keys().forEach(ele => this.remove(ele));

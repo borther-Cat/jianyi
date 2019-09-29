@@ -57,7 +57,7 @@ $(function(){
             loginApwd.addClass("bian-02");
             errMsgPwd.addClass("focus error");
          }else{
-            console.log("--------");
+
             
             let phone = loginAinput.val();
             let passwordID = loginApwd.val();
@@ -68,10 +68,10 @@ $(function(){
                dataType: "json",
                success: function(response) {
                    if (response.status == "success") {
-                       alert(response.data.msg);
+                     //   alert(response.data.msg);
                         if(isChecked){
-                           Cookie.set("username", phone, 7);
-                           Cookie.set("password", passwordID, 7);
+                           Cookie.set("username", phone,'/', 7);
+                           Cookie.set("password", passwordID,'/', 7);
                         }
                      
                         window.location.href = "http://127.0.0.1/code/second_test/home/home.html";
@@ -111,7 +111,7 @@ $(function(){
          loginBerr.css("display","block");
      }else{
          if(loginBpwd.eq(0).val()!=imageCodeVal){
-            console.log("pppppppp");
+
             $("#label_img_code").css("display","block");
          }else{
             $("#label_img_code").css("display","none");        
@@ -151,9 +151,13 @@ $(function(){
                     .getSeconds());
             return datetime;
         }
+        function getRandom(min, max) {
+         return parseInt(Math.random() * (max - min + 1)) + min
+         }
 
-        // num = getRandom(1000, 9999);
-        num = 999;
+        num = getRandom(1000, 9999);
+        console.log(num);
+      //   num = 999;
         $.ajax({
             type: 'post',
             url: 'http://route.showapi.com/28-1',
@@ -200,6 +204,7 @@ $(function(){
          }else{
             if(loginBpwd.eq(1).val() == num){
                alert("登录成功！")
+               window.location.href = "http://127.0.0.1/code/second_test/home/home.html";
             }else{
                $("#label_img_code").css("display","block");
             }

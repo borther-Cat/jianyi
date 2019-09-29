@@ -4,7 +4,7 @@ $(function(){
          var Data=""
         new Promise(function(resolve, reject) {
             $.ajax({
-                type: "get",
+                type: "post",
                 data: `id=${id}`,
                 url: "./server/detailPage.php",
                 dataType: "json",
@@ -16,6 +16,27 @@ $(function(){
         }).then(function(){
             console.log(Data);
             $(".min-img img").attr("src",Data[0].src)
+            $(".max-img img").attr("src",Data[0].src)
+            $(".productarea-right-1 h1").text(Data[0].del)
+            $("#jianyiPrice").text("￥"+Data[0].price)
+
+        })
+        var count;
+        $(".buyNumDL dd .c02").click(function(){
+            count = $("#goodscount").val();
+            count++;
+            console.log(count);
+            $("#goodscount").val(count);
+
+        })
+        $(".buyNumDL dd .c01").click(function(){
+            count = $("#goodscount").val();
+            count--;
+            console.log(count);
+            if(count<=0){
+                count=0;
+            }
+            $("#goodscount").val(count);
 
         })
 

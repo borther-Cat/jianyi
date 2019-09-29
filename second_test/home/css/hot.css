@@ -61,3 +61,7 @@
     font-weight: normal;
     margin-right: 8px;
 }
+.li_box a:hover{
+    color: #e4393c;
+    text-decoration: underline;
+}

@@ -20,7 +20,7 @@ if(mysqli_num_rows($result) == "1"){
 }else{
   $sql = "INSERT INTO `userlist` (`id`, `username`, `password`) VALUES (NULL, '$phone', '$password');";
   mysqli_query($db, $sql);
-  $data["data"]["msg"] = "恭喜你，注册成功";
+  $data["data"]["msg"] = "注册成功!";
    $data["status"] = "success";
   echo json_encode($data, true);
 }
