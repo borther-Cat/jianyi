@@ -394,6 +394,10 @@ img {
     HEIGHT: 32px;
     margin-top: 4px;
 }
+/* .listsearch-xq .listshop{
+    height: 27px;
+    display: inline-block;
+} */
 .listshop a {
     float: left;
     margin-right: 10px;
